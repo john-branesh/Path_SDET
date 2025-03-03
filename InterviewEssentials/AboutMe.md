@@ -1,0 +1,7 @@
+"Hi, I’m John Branesh, a Senior Device Associate at Amazon with over 4 years of experience in device software testing. My key role is new device onboarding, where I lead end-to-end testing for new product launches. This includes coordinating with product managers and technical teams, optimizing test coverage for different marketplaces, and executing Non-Functional Testing (NFT) to establish performance baselines. I ensure a seamless rollout by validating features and addressing critical issues before release."
+
+"I also manage bug triaging, reporting, and JIRA audits, ensuring defects are well-documented and prioritized for resolution. Additionally, I’ve been the POC for new feature intakes, where I wrote test plans, designed test cases, and allocated resources to meet tight ETAs. I worked closely with stakeholders to prioritize P0 modules, ensuring efficient testing under strict timelines."
+
+"On the automation side, I have basic experience in Java Selenium, Python, and TestNG and have leveraged LLMs for script development to improve efficiency. I’ve also contributed to process automation by developing Python scripts to optimize repetitive workflows."
+
+"Outside of work, I enjoy spending time with my family and reading books. I’m always looking to expand my knowledge in testing frameworks, AI-driven automation, and process optimization to drive better testing strategies."
