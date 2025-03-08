@@ -1,5 +1,6 @@
 Test Plan for VWO Web Login Page
-Document Details
+
+Document Details:-
 Project Name: VWO Web Login Page Testing
 Test Plan Version: 1.0
 Prepared By: [Your Name]
@@ -7,10 +8,11 @@ Test Lead: [Lead Name]
 Test Execution Start Date: [Start Date]
 Test Execution End Date: [End Date]
 
-Test Plan Overview:
+Test Plan Overview:-
 This test plan outlines the approach to testing the VWO Web Login Page to ensure functionality, security, performance, and usability across different environments and user scenarios.
 
-Features to be Tested
+Features to be Tested:-
+
 Functional Testing:
 ✔ Verify successful login with valid credentials.
 ✔ Verify login fails for invalid credentials (wrong email/password).
