@@ -1,0 +1,98 @@
+Test Plan for VWO Web Login Page
+Document Details
+Project Name: VWO Web Login Page Testing
+Test Plan Version: 1.0
+Prepared By: [Your Name]
+Test Lead: [Lead Name]
+Test Execution Start Date: [Start Date]
+Test Execution End Date: [End Date]
+
+Test Plan Overview:
+This test plan outlines the approach to testing the VWO Web Login Page to ensure functionality, security, performance, and usability across different environments and user scenarios.
+
+Features to be Tested
+Functional Testing:
+✔ Verify successful login with valid credentials.
+✔ Verify login fails for invalid credentials (wrong email/password).
+✔ Verify login field validations (empty email, empty password).
+✔ Verify case sensitivity in email and password fields.
+✔ Verify password masking (should display as dots/asterisks).
+✔ Verify "Forgot Password" link redirects to the reset page.
+✔ Verify error messages appear correctly for failed login attempts.
+✔ Verify login behavior with remember me option checked/unchecked.
+
+UI/UX Testing:
+✔ Verify all UI elements (input fields, buttons, labels, error messages) are properly aligned.
+✔ Verify the login button is disabled until valid inputs are entered.
+✔ Verify responsiveness on mobile, tablet, and desktop views.
+✔ Verify browser compatibility (Chrome, Firefox, Edge, Safari).
+
+Security Testing:
+✔ Verify account lockout mechanism after multiple failed attempts.
+✔ Verify session timeout behavior after inactivity.
+✔ Verify encryption of credentials (Inspect network requests).
+✔ Verify SQL Injection and XSS protection in login fields.
+✔ Verify user is redirected to login after logout.
+
+Performance Testing:
+✔ Verify login works smoothly under high user load.
+✔ Measure login page load time under normal and heavy load conditions.
+✔ Verify API response time when logging in.
+
+Compatibility Testing:
+✔ Test login on different browsers: Chrome, Firefox, Edge, Safari.
+✔ Test login on different devices: Windows, macOS, iOS, Android.
+
+Test Approach:
+Testing will be performed manually for UI/functional testing.
+Automation scripts may be developed for repetitive functional scenarios using Selenium + Java.
+Security and performance testing will use Postman, JMeter, and Burp Suite.
+Browser compatibility will be tested using BrowserStack/Sauce Labs.
+
+Test Data:
+  Valid Login:
+
+    Email: user@example.com
+    Password: Password123
+    Expected Result: Successful login
+    Invalid Email:
+
+    Email: invaliduser
+    Password: Password123
+    Expected Result: "Invalid email format" error
+    Empty Fields:
+
+    Email: (empty)
+    Password: (empty)
+    Expected Result: "Fields cannot be empty" error
+    Wrong Password:
+
+    Email: user@example.com
+    Password: WrongPass
+    Expected Result: "Incorrect password" error
+
+Exit Criteria:
+✔ 95% of test cases executed successfully.
+✔ No critical/blocker defects remain open.
+✔ Login page meets security, performance, and usability standards.
+
+Risks & Mitigation:
+Login API downtime: Test with mock API responses to simulate login behavior.
+Browser compatibility issues: Use cross-browser testing tools like BrowserStack or Sauce Labs.
+High user load: Perform load testing with JMeter to ensure system stability.
+
+Test Execution Timeline:
+Test Case Design: [Start Date] – [End Date]
+Functional Testing: [Start Date] – [End Date]
+Security & Performance Testing: [Start Date] – [End Date]
+Bug Fix Validation: [Start Date] – [End Date]
+Test Closure: [Start Date] – [End Date]
+
+Test Summary & Reporting:
+Daily test reports will be shared via JIRA/TestRail.
+Bug reports will be logged in JIRA with severity levels.
+Final test report will include test execution status, defect summary, and recommendations.
+
+Conclusion:
+This test plan ensures that the VWO Web Login Page meets functional, security, performance, and compatibility requirements. Any issues found will be logged and addressed before release.
+
